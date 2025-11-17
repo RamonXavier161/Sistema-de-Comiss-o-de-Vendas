@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+header {
+    background-color: black; 
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+#funcionarias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+}
+.funcionaria {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 15rem;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: floralwhite; /* Fundo preto */
+}
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border: transparent;
+    border: 1.5px solid #000;
+}
+.adicionar {
+    background-color: #4caf50;
+    color: white;
+    margin-top: 2.5rem;
+}
+.cadastrar {
+    background-color: #4caf50;
+    color: white;
+    margin-top: 2.5rem;
+}
+.subtrair {
+    background-color: #f44336;
+    color: white;
+}
+#historico {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    margin: 1rem;
+}
+#ver-historico {
+    background-color: black; /* Cor azul */
+    color: white;
+}
+
+#lista-historico {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+#lista-historico li {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+button{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.lista {
+    margin-top: 15px;
+    border-radius: 8px;
+    max-height: 600px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+    padding: 0;
+    border: 1px solid #e3e6e8;
+}
+
+/* Tabela */
+.lista table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Cabeçalho */
+.lista table thead th {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Corpo da tabela */
+.lista table tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Hover */
+.lista table tbody tr:hover {
+    background: #f1f7ff;
+}
+
+/* Ícone */
+.lista i.fas.fa-circle {
+    font-size: 30px;
+}
+
+/* Links */
+.lista a {
+    text-decoration: none;
+}
+
+.limpar {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: auto; 
+    text-align: right;
+}
+
