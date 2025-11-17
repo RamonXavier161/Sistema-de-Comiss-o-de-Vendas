@@ -102,7 +102,7 @@ A utilização de **SweetAlert2** (`showPopup`, `showConfirmation`) é uma excel
 
 ## 🙋‍♂️ Autor
 
-  * [Seu Nome / Apelido] - [Link para seu GitHub/LinkedIn]
+  * [RAMON XAVIER] - [www.linkedin.com/in/ramon-xavier-dev]
 
 -----
 
