@@ -10,8 +10,8 @@ set conn = server.createobject("adodb.connection")
 	conn.Open "Driver={MySQL ODBC 8.4 ANSI Driver};" & _
           "Server=localhost;" & _
           "Database=vendas;" & _
-          "User=seu usuario aqui;" & _
-          "Password= sua senha aqui;" 
+          "User=root;" & _
+          "Password=adm123;" 
 
 Conn.CommandTimeout = 2000
 

@@ -25,8 +25,6 @@ abre_conexao()
     <img src="./assets/img/logo.png" alt="Logo" class="logo">
 
     <div class="acoes">
-        <button onclick="limparhistorico();" class="btn btn-info limpar">limpar</button>
-
         <a href="usuario.asp" class="nav-link">
             <button class="cadastrar">usuarios</button>
         </a>
@@ -147,6 +145,8 @@ Wend
                     <th>valor</th>
                     <th>Tipo De Opereçao</th>
                     <th>DATA</th>
+                    <th><button onclick="limparhistorico();" class="btn btn-info limpar">limpar</button></th>
+
                 </tr>
             </thead>
             <tbody>
