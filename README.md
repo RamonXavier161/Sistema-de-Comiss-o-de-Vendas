@@ -1,6 +1,5 @@
 uma **solução de rastreamento de vendas** focada em **motivar e recompensar vendedores** em um ambiente de loja, utilizando tecnologias clássicas e componentes de interface modernos.
 
-Com base na sua descrição e nos trechos de código, preparei um **template de README** detalhado para o seu projeto, incluindo uma descrição clara e a seção de tecnologias.
 
 -----
 
